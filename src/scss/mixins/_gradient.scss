@@ -1,0 +1,3 @@
+@mixin bgGradient($direction: bottom right, $corOne: #8A40C0, $corTwo: #F28397) {
+    background: linear-gradient(to $direction, $corOne 0%, $corTwo 100%);
+}

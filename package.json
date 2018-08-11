@@ -1,0 +1,29 @@
+{
+  "name": "criptez",
+  "version": "1.0.0",
+  "description": "A responsive one page HTML template.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrcav/criptez.git"
+  },
+  "author": "Adriel Cavalcanti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adrcav/criptez/issues"
+  },
+  "homepage": "https://github.com/adrcav/criptez#readme",
+  "devDependencies": {
+    "browser-sync": "^2.24.6",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-minify": "^3.1.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-sass": "^4.0.1",
+    "gulp-wait": "0.0.2"
+  }
+}

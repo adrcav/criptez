@@ -1,0 +1,51 @@
+.bton {
+    width: auto;
+    height: auto;
+    padding: 10px 25px;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    outline: none !important;
+    border-radius: 5px;
+    // Effect Float
+    display: inline-block;
+    vertical-align: middle;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    transition-duration: 0.3s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+
+    &:hover, &:focus, &:active {
+        transform: translateY(-2px);
+    }
+}
+
+// Colors
+.bton-dark {
+    @include bgGradient(bottom right, rgba(58, 56, 91, .9), rgba(73, 71, 116, .9));
+    &:hover {
+        @include bgGradient(bottom right, rgba(58, 56, 91, 1), rgba(73, 71, 116, 1));
+    }
+}
+.bton-light {
+    @include bgGradient(bottom right, rgba(109, 50, 154, .9), rgba(139, 64, 192, .9));
+    &:hover {
+        @include bgGradient(bottom right, rgba(109, 50, 154, 1), rgba(139, 64, 192, 1));
+    }
+}
+.bton-pink {
+    @include bgGradient(bottom right, rgba(228, 120, 158, .9), rgba(242, 131, 151, .9));
+    &:hover {
+        @include bgGradient(bottom right, rgba(228, 120, 158, 1), rgba(242, 131, 151, 1));
+    }
+}
+// Large
+.bton-dark-large {
+    @include bgGradient(bottom right, rgba(58, 56, 91, .9), rgba(73, 71, 116, .9));
+    padding: 25px 50px;
+    width: 100%;
+    &:hover {
+        @include bgGradient(bottom right, rgba(58, 56, 91, 1), rgba(73, 71, 116, 1));
+    }
+}
